@@ -1,0 +1,10 @@
+#wrapper {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
