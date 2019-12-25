@@ -1,3 +1,7 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #wrapper {
     min-height: 100vh;
     padding-bottom: 50px;
@@ -17,8 +21,9 @@ footer {
     background-color: #FFFFFF;
 }
 
-.content--title {
-
+h1.content--title {
+    font-family: 'Gelasio', serif;
+    font-size: 1.5rem;
 }
 
 .content--image {
@@ -34,5 +39,8 @@ nav.navbar {
     .content--image {
         max-width: 200px;
         height: auto;
+    }
+    h1.content--title {
+        font-size: 2rem;
     }
 } 

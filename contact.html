@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact</title>
 
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio|Ubuntu&display=swap" rel="stylesheet">
+    
 
 </head>
 <body>
@@ -31,12 +33,22 @@
             <div class="row">
                 <div class="col-12 col-lg-8">
                     <div class="content--container border px-3 py-3">
-                        <h1 class="content--title border-bottom">About Me</h1>
-                        <p>
-                            <img src="portrait.png" class="content--image float-none float-md-left img-fluid" alt="Frank Moran portrait" /> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia fuga expedita nulla sunt quaerat suscipit quos, harum molestias beatae sed. At corrupti libero corporis dolores quia iste pariatur mollitia natus?
-                        </p>
-                        <p>Nulla possimus facilis repudiandae neque totam aspernatur, cupiditate, sequi eaque minus voluptatem excepturi. Delectus voluptates dolores esse quo dicta, officiis labore eaque est quasi facere? Ab, labore.</p>
-                        Officiis dolor reiciendis natus vel beatae est optio libero? Ipsam voluptatum saepe nobis veritatis pariatur dicta quo voluptates vero, maiores excepturi similique? Quo eius accusantium magnam esse incidunt optio at?</p>
+                        <h1 class="content--title border-bottom mb-3">Contact Me</h1>
+                        <form>
+                            <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="name" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comments">Comments</label>
+                                <textarea class="form-control" id="comments" rows="3" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button class="btn btn-lg btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
