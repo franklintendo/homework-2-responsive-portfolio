@@ -5,6 +5,7 @@ html, body {
 #wrapper {
     min-height: 100vh;
     padding-bottom: 50px;
+    padding-top: 50px;
     position: relative;
     background-color: #EEEEEE;
     background-image: url('../img/fresh_snow_@2X.png');
@@ -17,6 +18,7 @@ footer {
     height: 50px;
     background-color: #666666;
     color: #FFFFFF;
+    border-top: 5px solid #7494EA;
 }
 
 .content--container {
@@ -30,6 +32,38 @@ h1.content--title {
 
 nav.navbar {
     background-color: #FFFFFF;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+a.navbar-brand {
+    background-color: #7494EA;
+    color: #FFFFFF;
+}
+
+a.navbar-brand:hover {
+    background-color: #405180;
+    color: #FFFFFF;
+}
+
+a.nav-link {
+    color: #999999;
+}
+
+a.nav-link:hover {
+    color: #7494EA;
+}
+
+.btn-primary {
+    background-color: #7494EA;
+    border: 1px solid #7494EA;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #405180;
+    border-color: #405180;
 }
 
 .content--portfolio-item {
