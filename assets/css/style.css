@@ -7,6 +7,8 @@ html, body {
     padding-bottom: 50px;
     position: relative;
     background-color: #EEEEEE;
+    background-image: url('../img/fresh_snow_@2X.png');
+    background-size: 50% 50%;
 }
 
 footer {
@@ -26,12 +28,12 @@ h1.content--title {
     font-size: 1.5rem;
 }
 
-.content--image {
-
-}
-
 nav.navbar {
     background-color: #FFFFFF;
+}
+
+.content--portfolio-item {
+
 }
 
 /* For Viewports >= 768 */
