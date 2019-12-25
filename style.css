@@ -2,9 +2,25 @@
     min-height: 100vh;
     padding-bottom: 50px;
     position: relative;
+    background-color: #EEEEEE;
 }
 
 footer {
     position: absolute;
     bottom: 0;
+    height: 50px;
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+.content--container {
+    background-color: #FFFFFF;
+}
+
+.content--title {
+    
+}
+
+nav.navbar {
+    background-color: #FFFFFF;
 }
