@@ -5,7 +5,7 @@ html, body {
 #wrapper {
     min-height: 100vh;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 87px;
     position: relative;
     background-color: #EEEEEE;
     background-image: url('../img/fresh_snow_@2X.png');
@@ -67,7 +67,60 @@ a.nav-link:hover {
 }
 
 .content--portfolio-item {
+    height: 260px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.content--portfolio-item.gary {
+    background-image: url('../img/thumbs/gary-1.jpg');
+}
+
+.content--portfolio-item.gary:hover {
+    background-image: url('../img/thumbs/gary-2.jpg');
+}
+
+.content--portfolio-item.meryl {
+    background-image: url('../img/thumbs/meryl-1.jpg');
+}
+
+.content--portfolio-item.meryl:hover {
+    background-image: url('../img/thumbs/meryl-2.jpg');
+}
+
+.content--portfolio-item.shamwow {
+    background-image: url('../img/thumbs/shamwow-1.jpg');
+}
+
+.content--portfolio-item.shamwow:hover {
+    background-image: url('../img/thumbs/shamwow-2.jpg');
+}
+
+.content--portfolio-item.tom {
+    background-image: url('../img/thumbs/tom-1.jpg');
+}
+
+.content--portfolio-item.tom:hover {
+    background-image: url('../img/thumbs/tom-2.jpg');
+}
+
+.content--portfolio-item.will {
+    background-image: url('../img/thumbs/will-1.jpg');
+}
+
+.content--portfolio-item.will:hover {
+    background-image: url('../img/thumbs/will-2.jpg');
+}
+
+.content--portfolio-item-name {
+    color: #FFFFFF;
+    background-color: #1B3B6F;
+    padding: 7px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* For Viewports >= 768 */
@@ -78,5 +131,8 @@ a.nav-link:hover {
     }
     h1.content--title {
         font-size: 2rem;
+    }
+    #wrapper {
+        padding-top: 50px;
     }
 } 
